@@ -1,330 +1,124 @@
+#title{
+    background-color: whitesmoke;
+    background-image: url("wooden7.jpg");
+    background-size: 100%;
+}
 body{
-    margin: 0px;
-    width: auto;
-    position: relative;
     background-color: whitesmoke;
+    background-image: url("wooden7.jpg");
+}
+h1{
+    font-family: 'Cinzel';
+    font-size: 5.5rem;
+    font-weight: 550;
+    line-height: 1.5;
+    color: whitesmoke;
+    padding-left: 2%;
+}
+h2{
+    font-family: 'Cinzel';
+    font-size: 2.6rem;
+    line-height: 1.5;
+    color: whitesmoke;
+    padding-left: 2%;
+}
+h3 {
+    font-family: 'Cinzel';
+    font-size: 2rem;
+    line-height: 1.5;
+    color: whitesmoke;
+    background-color: brown;
+   
     
 }
-.header{
-    background-image: url("wooden1.jpg");
-    background-color:#292929;
-    color: whitesmoke;
-    height: 70px;
-    width: 100%;
-    font-style: italic;
-    position: fixed;
-   
-   
+.col-lg-7{
+    margin-top: 8%;
 }
-.headerPara{
-    position: fixed;
-    left: 25%;
-    width: auto;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-style: italic;
-    font-size: 1.5vw;
+.row{
+    margin: 0;
 }
 
-.startPage{
-    width: 100%;
-    height: 820px;
-    background-image: url("coffee.jpg");
-    background-size: 100% auto;   
-    
+.container-fluid {
+    padding: 0.8% 2% 0 2%;
 }
-.startIntro{
-    background-image: url(wooden1.jpg);
-    font-family: 'Cinzel', serif;
-    color: whitesmoke;
-    width: 65%;
-    height: 20%;
-    position: relative;
-    top: 25%;
+
+.nav-item{
+    padding: 0 8px;
 }
-.name{
-    
-   font-weight: bolder;
-    font-size: 480%;
-    /* margin: auto; */
-    /* right: 10%; */
-    position: relative;
-    /* left: 10%; */
-    margin: auto auto 0 10%;
+
+/* contact-button */
+
+.contact-button{
+    margin: 3% 4% 3% 0%;
 }
-.underline1{
-   position: relative;
+
+.mypic{
     width: 90%;
-    /* margin-top: 0; */
-    margin: 0 7% 0 7%;
-    /* border: blue; */
-    height: 1.5px;
-    background-color: whitesmoke;
+    
+    padding: 0 5% 0 15%;
+    
 }
-.shortIntro{
-   position: relative;
-    margin: 0 10% 0 20%;
-    font-size: 180%;
-}
-hr.belowstart{
-    height: 40px;
+.abtme{
+    padding-left: 27vw;
     background-color: brown;
 }
 
-.secondleft{
-    width: 25%;
-    height: 1000px;
-    display: inline-block;
-    background-color: whitesmoke;
-    border-right: solid;
-    border-color: brown;
-    position: absolute;
-}
-.yashpic{
-    width: 60%;
-    /* margin: auto; */
-    /* position: absolute; */
-    position: relative;
-    left: 20%;
-    margin-top: 8%;  
-}
-hr.belowmypic{
-    width: 85%;
-    height: 0.5px;
-    background-color: brown;
-    margin: 0.2% auto 0.2% auto;
-}
-.wordIntro{
-    margin: 0 0.2%;
-    font-family: 'Cinzel', serif;
-    color: whitesmoke;
-    font-size: 2.5vw;
-    /* position: absolute; */
-    /* left: 6%; */
-    background-color: brown;
-    /* top: 7%; */
-    /* left: 8%; */
-    /* position: relative; */
-    FONT-WEIGHT: 200;
-    /* left: 25%; */
-    /* margin-top: 0; */
-    /* margin: 0 auto 0 40%; */
-    padding-left: 10%;
-    /* margin: auto auto auto; */
-    align-content: center;
+.logo{
+    padding-left: 35%;
+    
 }
 
-.hr1{
-   width: 85%;
-    height: 5.5%;
-    background-color: brown;
-    margin: 3.488% auto 0.2% auto;
-}
-.hr2{
-   width: 99%;
-    height: 2.5%;
-    background-color: brown;
-    margin: 0% auto 0.2% auto;
-    position: absolute;
-}
-p.intro{
+.mypara
+{
     color: brown;
-    line-height: 1.5;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 5%;
-}
-p.contact{
-    color: brown;
-    padding-left: 5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-a.contact:hover{
-    color: black;
-}
-.secondright{
-        height: 1000px;
-    width: 74%;
+    line-height: 1.5;
+    font-size: 120%;
     background-color: whitesmoke;
-    /* display: inline-flex; */
-    position: absolute;
-    top: 99.9%;
-    left: 25.15%;
+    
+    
+    
 }
-.secondright1{
-    height: 110px;
-    width: 100%;
+
+.School{
+    background-color: brown;
+    font-size: 1.8rem;
+    padding-left: 36%;
+    /* color: brown; */
+}
+
+.educat{
+    padding: 10% 10%;
+    
+
+}
+.col-lg-4{
     background-color: whitesmoke;
-    position: relative;
 }
-h2.wordEducation{
-        font-family: 'Cinzel', serif;
-    color: whitesmoke;
-    font-size: 2.7vw;
-    /* position: absolute; */
-    /* left: 6%; */
-    background-color: brown;
-    /* top: 7%; */
-    /* left: 8%; */
-    position: relative;
-    FONT-WEIGHT: 200;
-    /* left: 25%; */
-    /* margin-top: 0; */
-    /* margin: 0 auto 0 40%; */
-    padding-left: 40%;
-    margin: 2% auto 0% auto;
-    width: 60%;
-}
-p.quote{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
-    color: brown;
-    padding-left: 29%;
-    margin: 1%;
+.hobbyrow{
+    padding: 0.5% 7%;
     
 }
-.HS{
-    height: 35%;
-    position: absolute;
-    top: 15%;
+
+.hobbypic{
+    width: 13%;
+    
+}
+.logo1{
     width: 100%;
+    height: 15%;
+    /* padding-right: 35%; */
+    background-color: whitesmoke;
+    padding: 2% 35%;
 }
-img.jnvlogo{
-        /* width: auto; */
-    /* display: inline-block; */
-    position: absolute;
-    width: 12%;
-    top: 18%;
-    left: 3%;
-    float: left;
+.rowcont{
+   margin: 1% 8%;
+   padding: 1% 6%;
+   background-color: whitesmoke;
+   opacity: 100%;
+   }
+.carousel-inner{
+    padding: 2% 18%;
 }
-h2.wordHighSchool{
-    font-family: 'Cinzel', serif;
-    color: whitesmoke;
-    font-size: 150%;
-    background-color: brown;
-    /* position: relative; */
-    position: absolute;
-    FONT-WEIGHT: 200;
-    /* padding-left: 40%; */
-    /* margin: 2% auto 0% auto; */
-    /* width: 68%; */
-    /* bottom: 2%; */
-  
-    top: 16%;
-    left: 18%;
-    padding-right: 10%;
-    display: inline-block;
-    padding-left: 1%;
-    /* margin: 10px;*/
-
-}
-.HSIntro{
-   color: brown;
-    line-height: 1.5;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* padding: 5%; */
-    position: absolute;
-    top: 21%;
-    left: 13%;
-    padding-left: 5%;
-   
-
-    
-
-}
-img.RRlogo{
-        /* width: auto; */
-    /* display: inline-block; */
-    position: absolute;
-    width: 12%;
-    top: 45%;
-    left: 3%;
-    float: left;
-}
-h2.wordSeniorSecondary{
-       font-family: 'Cinzel', serif;
-    color: whitesmoke;
-    font-size: 150%;
-    background-color: brown;
-    /* position: relative; */
-    position: absolute;
-    FONT-WEIGHT: 200;
-    
-    
-    top: 43%;
-    left: 18%;
-    padding-right: 10%;
-    padding-left: 1%;
-
-}
-.SSIntro{
-      
-
-     color: brown;
-    line-height: 1.5;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* padding: 5%; */
-    position: absolute;
-    top: 48%;
-    left: 13%;
-    padding-left: 5%;
-     
-
-}
-img.thaparlogo{
-        /* width: auto; */
-    /* display: inline-block; */
-    position: absolute;
-    width: 12%;
-    top: 70%;
-    left: 3%;
-    float: left;
-}
-h2.wordUndergraduate{
-       font-family: 'Cinzel', serif;
-    color: whitesmoke;
-    font-size: 150%;
-    background-color: brown;
-    /* position: relative; */
-    position: absolute;
-    FONT-WEIGHT: 200;
-    top: 68%;
-    left: 18%;
-    padding-right: 10%;
-    padding-left: 1%;
-
-}
-.UGIntro{
-        color: brown;
-    line-height: 1.5;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-    position: absolute;
-    top: 73%;
-    left: 13%;
-     padding-left: 5%;
-
-}
-
-.SS{
-    height: 35%;
-    position: absolute;
-    top: 40%;
-    width: 100%;
-}
-.UG{
-    height: 35%;
-    position: absolute;
-    top: 60%;
-    width: 100%;
-}
-
-
-
-
-    
-    
-    
-    
-
 
     
